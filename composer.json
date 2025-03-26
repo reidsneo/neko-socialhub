@@ -1,0 +1,32 @@
+{
+  "name": "neko/socialhub",
+  "description": "A collection of OAuth 2 packages.",
+  "keywords": [
+    "oauth",
+    "social",
+  ],
+  "autoload": {
+    "files": [
+      "src/Contracts/FactoryInterface.php",
+      "src/Contracts/UserInterface.php",
+      "src/Contracts/ProviderInterface.php"
+    ],
+    "psr-4": {
+      "Neko\\Socialhub\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0.2",
+    "ext-json": "*",
+    "ext-openssl": "*"
+  },
+  "require-dev": {
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "reidsneo",
+      "email": "reids@neoblackant.org"
+    }
+  ]
+}
