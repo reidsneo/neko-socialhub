@@ -3,7 +3,7 @@
   "description": "A collection of OAuth 2 packages.",
   "keywords": [
     "oauth",
-    "social",
+    "social"
   ],
   "autoload": {
     "files": [
